@@ -1,0 +1,7 @@
+<SvrCfg LineId = "1" Console = "true">
+	<LgCfg Addr = "127.0.0.1:9595"/>
+	<DbCfg Host = "192.168.0.109" Port = "3306" User = "root" Pwd = "123456" DB = "hawk"/>
+	<GwCfg Frontend = "*:8008" Backend = "*:8009" Threads = "4" Mode = "1" Security = "false" KeepAlive = "0" Platform = "0" Profiler = ""/>
+	<GsCfg Threads = "4" ConnLimit = "2000" InnerGate = "true"/>
+	<Robot Addr = "192.168.0.109:8008" Count = "100"/>
+</SvrCfg>
