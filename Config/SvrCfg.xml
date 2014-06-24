@@ -4,5 +4,4 @@
 	<GwCfg Frontend = "*:8008" Backend = "*:8009" Threads = "4" Mode = "1" Security = "false" KeepAlive = "0" Platform = "0" Profiler = ""/>
 	<GsCfg Threads = "4" ConnLimit = "2000" InnerGate = "true"/>
 	<Robot Addr = "192.168.0.109:8008" Count = "100"/>
-	<Test Addr = "192.168.0.109:8008" Count = "100"/>
 </SvrCfg>
